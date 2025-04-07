@@ -1,0 +1,136 @@
+body{
+    margin-top: 75px;
+    margin-bottom: 75px;
+    text-transform: uppercase;
+        
+}
+header {
+ display: flex;
+ justify-content: center;
+ margin-bottom: 20px;
+}
+.logo {
+    width: 20%;
+    height: 20%;
+}
+.section-films{
+    margin-top: 75px;
+    display: flex;
+    justify-content: space-between;
+}
+h1{
+    text-align: center;
+    color: rgb(118, 21, 21);
+    font-weight: bold;
+    
+}
+
+.film{
+    width: 300px;
+    padding-top: 20px;
+    padding-left: 10px;
+    
+}
+
+
+.top{
+    display: flex;
+    height: 200px;
+}
+
+.vl {
+    border-left: 6px solid rgb(118, 21, 21);
+    height: 150px;
+}
+.info{
+    padding-top: 30px;
+    padding-left: 10px;
+    padding-bottom: 5px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+.text{
+    font-size: 32px;
+    margin-left: 10px;
+    margin-top: -3px;
+    margin-bottom: 35px;
+}
+.li{
+    font-size: 15px ;
+}
+span{
+    color: rgb(118, 21, 21);
+    font-weight: bold;
+}
+.button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.button1{
+    background: #f8f7f7;
+    width: 210px;
+    height: 50px;
+    margin-top: 20px;
+    border-color: rgb(118, 21, 21);
+}
+.button2{
+    background: rgb(118, 21, 21);
+    color: #FFF;
+    width: 210px;
+    height: 50px;
+    margin-top: 20px;
+    border-color: #acacac;
+}
+
+.form-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px; 
+    border-radius: 15px; 
+    text-align: center; 
+}
+
+.form-container label {
+    display: block;
+    margin-bottom: 10px;
+    color: rgb(118, 21, 21);
+}
+
+.form-container input[type=email] {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 25px;
+    border: 4px solid rgb(118, 21, 21); 
+}
+.form {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); 
+}
+
+.form-container button {
+    background: rgb(118, 21, 21);
+    color: #FFF;
+    width: 210px;
+    height: 50px;
+    margin-top: 20px;
+    border-width: 4px; 
+    border-color: rgb(118, 21, 21);
+    font-size: 25px; 
+
+    border-radius: 25px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.form-container button:hover {
+    background: #A80E0E;
+}
+.film:nth-child(3) .info {
+    background-color: black;
+border-radius: 20px;
+}
+
+
+
+
